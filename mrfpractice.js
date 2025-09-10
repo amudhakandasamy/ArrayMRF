@@ -19,3 +19,11 @@ console.log("Filter output");
 console.log(outputFltr);
 
 
+const arrRed = [56,34,56,89,10,12,15,16,8,11]
+
+const outputRed= arrRed.reduce((pNumb , nxtNum) => {
+  return pNumb < nxtNum ? nxtNum : pNumb;
+})
+
+console.log("reduce output");
+console.log(outputRed);

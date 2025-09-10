@@ -35,3 +35,4 @@ const outputreduce = Arr.reduce(function(prevNum, currNum) // iterates each valu
 
 console.log("reduce output");
 console.log(outputreduce);
+
