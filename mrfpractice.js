@@ -1,9 +1,7 @@
-
-
+// MRF , higher order function which reduce the lines of coding
+//map() filter() reduce()
 
 // 1. [mangoe, orange, apple] add the word S to end of each string.
-
-
 
 const arr = ["apple","orange","mango"]
 const outputMap = arr.map((x) => x + "s"); 
@@ -32,3 +30,21 @@ const outputRed= arrRdc.reduce((pNumb , nxtNum) => {
 console.log(arrRdc);
 console.log("using reduce printing the greatest number in Array");
 console.log(outputRed);
+
+//split and join works on individual character array
+
+let a = "split join".split(" ");
+let b = a[0].split("");
+let c = a[1].split("");
+console.log(b);
+console.log(c);
+console.log(...b,...c);// in js ... copies the splited array b 
+
+let d = "splitedString".split("")
+console.log(d.join(" "));
+console.log(d.join("*"));
+
+let e = "guvigeek".split("");
+console.log(e.join(" "));
+console.log(e.join("*"));
+console.log(e.join("\n"));
