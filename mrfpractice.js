@@ -48,3 +48,11 @@ let e = "guvigeek".split("");
 console.log(e.join(" "));
 console.log(e.join("*"));
 console.log(e.join("\n"));
+
+
+let t = "2.4 5.6 7.8".split(" ");
+  
+  for(let i=0;i<=t.length;i++){
+    console.log(t[i]);
+  }
+  
